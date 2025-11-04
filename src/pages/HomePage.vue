@@ -7,6 +7,7 @@ import PricingSection from '@/components/price/PricingSection.vue'
 import CreatingWebsite from '@/components/aboutCreatingWebsite/creatingWebsite.vue'
 import Footer from '@/components/Footer.vue'
 import DiscussProject from '@/components/discussProject/discussProject.vue'
+import ReviewsSection from '@/components/reviews/ReviewsSection.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import DiscussProject from '@/components/discussProject/discussProject.vue'
     <SupportSection />
     <CubeSection />
     <PricingSection />
+    <ReviewsSection/>
     <DiscussProject/>
     <Footer />
   </main>
