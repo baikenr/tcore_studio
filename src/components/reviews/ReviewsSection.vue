@@ -12,15 +12,13 @@
       style="background: rgba(16,16,16,0.97);"
     ></div>
     <div
-      class="relative z-20 max-w-[1739px] mx-auto px-[115px] pt-[87px] pb-[120px]"
+      class="relative z-20 mx-auto px-[115px] pt-[87px] pb-[120px]"
     >
       <h2 class="ml-[77px] text-[48px] font-bold leading-[190%] tracking-[0.04em] mb-[58px]">
         Наши отзывы
       </h2>
 
-      <div
-        class="grid grid-cols-3 gap-x-[150px] gap-y-[80px]"
-      >
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8">
         <ReviewCard
           v-for="(t, i) in texts"
           :key="i"
